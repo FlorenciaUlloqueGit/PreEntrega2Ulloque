@@ -15,9 +15,7 @@ footer {
   border-right: hidden;
   border-left: hidden;
   border-left: -1%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+
 
 }
 
@@ -26,6 +24,7 @@ footer {
   flex-direction: column;
   padding-top: 20%;
   line-height: 40px;
+  align-items: center;
 }
 
 .footerLinks a {
@@ -38,7 +37,8 @@ footer {
   display: flex;
   flex-direction: column;
   padding-top: 12%;
-  line-height: 70px;
+  line-height: 50px;
+  align-items: center;
 }
 
 .footerLinks2 a {
@@ -60,11 +60,21 @@ footer {
   width: 90%;
 }
 
+.logoSocialRedContainer {
+  width: 80%;
+}
+
 .footerStyle {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.burgerButton {
+  border-color: antiquewhite;
+  color: yellowgreen;
+  background-color: gray;
 }
 
 .images {
@@ -87,11 +97,11 @@ footer {
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.2);
+  -ms-transform: scale(1.08);
   /* IE 9 */
-  -webkit-transform: scale(1.2);
+  -webkit-transform: scale(1.08);
   /* Safari 3-8 */
-  transform: scale(1.2);
+  transform: scale(1.08);
 }
 
 .box-top {
@@ -102,7 +112,6 @@ footer {
   text-align: center;
   font-size: 1.6rem;
   color: gray;
-  margin
 }
 .navDiv {
   background-color: rgb(44, 44, 44);
@@ -139,10 +148,14 @@ div img {
 
 .cardStyle {
  
+  
   margin-bottom: 5%;
   background-color: rgb(182, 174, 174);
 }
 
+.cardStyle2 {
+  height: 30rem;
+}
 .cardTitle {
 text-align: center;
 color: black;
@@ -174,12 +187,8 @@ color: black;
 }
 
 .stickers {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 5f%;
+  margin-bottom: 5%;
   margin-top: 8%;
-
 }
 
 .shortDescription {
@@ -231,10 +240,9 @@ legend {
   color: yellowgreen;
   font-size: large;
 }
-.imageActivities {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+
+.activities {
+  margin-bottom: 3%;
 }
 
 .divSocialIcons {
@@ -272,14 +280,20 @@ legend {
 }
 
 .principalMessage {
-  border-bottom: white;
+
   border-style: outset;
   border-right: black;
   border-left: black;
   border-top: black;
+  border-bottom: black;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 7%;
+  margin-bottom:1%;
 
+}
+.activityImg {
+margin-bottom: 8%;
+width: 90%;
 }
 
 .placesTable {
